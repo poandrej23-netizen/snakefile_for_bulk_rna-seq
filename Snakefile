@@ -1,7 +1,7 @@
 import os
 
-GENOME_DIR = "/mnt/storage/lab3/Abramov/reference/hg38"
-GTF_FILE   = "/mnt/storage/lab3/Abramov/reference/hg38/gencode.v46.basic.annotation.gtf"
+GENOME_DIR = "/hg38"
+GTF_FILE   = "/hg38/gencode.v46.basic.annotation.gtf"
 THREADS    = 16
 
 GLOBAL_TMPDIR = os.path.abspath("./snakemake_tmp")
